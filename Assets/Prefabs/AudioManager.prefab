@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6888271292115481844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 887648097735432968}
+  - component: {fileID: 8098687272507620358}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &887648097735432968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6888271292115481844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8098687272507620358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6888271292115481844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 958022bbbe2117d4fbdc59573620150e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: HeroAttack
+    clip: {fileID: 8300000, guid: 0ecf18972377e4652ab7377a0993f14a, type: 3}
+    loop: 0
+    volume: 0.413
+    pitch: 1.63
+    source: {fileID: 0}
+  - name: BanditAttack
+    clip: {fileID: 8300000, guid: 07c38e0499aea4acd81b44991c0e4d07, type: 3}
+    loop: 0
+    volume: 0.419
+    pitch: 1.65
+    source: {fileID: 0}
+  - name: Forest
+    clip: {fileID: 8300000, guid: 9f56daf4fb0e74197b3912377ce06053, type: 3}
+    loop: 1
+    volume: 0.063
+    pitch: 1
+    source: {fileID: 0}
+  - name: WarCry
+    clip: {fileID: 8300000, guid: 90d3b207d51ba48f4a8879bcc1c27a17, type: 3}
+    loop: 1
+    volume: 0.231
+    pitch: 1
+    source: {fileID: 0}
+  - name: Music
+    clip: {fileID: 8300000, guid: af52f6dd4c9df7745bd2f10fffb9624c, type: 3}
+    loop: 1
+    volume: 0.407
+    pitch: 1
+    source: {fileID: 0}
+  - name: FootStepsHero
+    clip: {fileID: 8300000, guid: d88e6bd959ff29740b3eed6ab266ea36, type: 3}
+    loop: 1
+    volume: 0.407
+    pitch: 1
+    source: {fileID: 0}
+  - name: FootStepsBandit
+    clip: {fileID: 8300000, guid: d88e6bd959ff29740b3eed6ab266ea36, type: 3}
+    loop: 1
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}

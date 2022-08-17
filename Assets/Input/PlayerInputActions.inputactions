@@ -1,0 +1,54 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "ed48844f-ae72-4019-a723-03517565f8cd",
+            "actions": [
+                {
+                    "name": "SpawnHeavyBandit",
+                    "type": "Button",
+                    "id": "c009fab4-b492-4b1d-ac3e-819da224b769",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SpawnArrow",
+                    "type": "Button",
+                    "id": "314a5963-0b62-48b6-9cae-34275413a360",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "63c6ed75-a4de-4a0a-a247-15461e7c7422",
+                    "path": "SpawnHeavyBandit",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnHeavyBandit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "39dd40c6-b8a9-4145-81a7-e1ed16403be6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SpawnArrow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
